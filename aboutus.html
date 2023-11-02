@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Critique of HeForShe Movement - About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        header nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        main {
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        section {
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 20px;
+            max-width: 600px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #007BFF;
+        }
+
+        h1, h3, h4, h5, h6 {
+            font-size: 20px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="radio"] {
+            margin: 5px 5px 5px 0;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .social-media-links a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>A Critique of HeForShe Movement</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Us</h2>
+            
+            <p>We are a group of passionate individuals dedicated to critically examining the HeForShe Movement.</p>
+            <p>On this page, you'll find our analysis, perspectives, and an opportunity to participate in our survey.</p>
+
+            <h3>Our Mission</h3>
+            <p>Our mission is to create a world in which women and men have equal rights under the law, and full enjoyment of their human rights.</p>
+
+            <h4>Our Core Values</h4>
+            <p>- Promoting women's security and combating gender-based violence</p>
+            <p>- Women's political participation and influence</p>
+            <p>- Women's economic empowerment and working conditions</p>
+            <p>- National accountability on gender equality and women's empowerment</p>
+
+            <h5>Our Goal</h5>
+            <p>- A nation with empowered women and girls</p>
+
+            <h6>Why gender equality?</h6>
+
+            <img src="image4.jpg" width="100%" style="max-width: 500px;">
+            <img src="image8.jpg" width="100%" style="max-width: 500px;">
+            <img src="image10.png" width="100%" style="max-width: 500px;">
+            <img src="image13.jpg" width="100%" style="max-width: 500px;">
+            <img src="image12.jpg" width="100%" style="max-width: 500px;">
+            <img src="image17.jpg" width="100%" style="max-width: 500px;">
+            <img src="image6.png" width="100%" style="max-width: 500px;">
+            <img src="image14.jpg" width="100%" style="max-width: 500px;">
+
+            <b><h7><p>Here for her</p></h7></b>
+
+            <h1>Survey Form</h1>
+    
+            <form action="submit_survey.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label>Which option best describes your experience with the HeForShe Movement?</label><br>
+                <input type="radio" id="positive" name="experience" value="Positive">
+                <label for="positive">Positive</label><br>
+                
+                <input type="radio" id="neutral" name="experience" value="Neutral">
+                <label for="neutral">Neutral</label><br>
+                
+                <input type="radio" id="negative" name="experience" value="Negative">
+                <label for "negative">Negative</label><br><br>
+                
+                <label for="comments">Additional Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Follow us on social media:</p>
+        <a href="https://www.facebook.com/HeForSheMovement" target="_blank"><img src="facebook.png" width="40px">@HeForShe Movement</a><br>
+        <a href="https://www.instagram.com/HeForSheMovement" target="_blank"><img src="image22.jpg" width="40px">@HeForShe Movement</a><br>
+        <a href="https://twitter.com/HeForShe" target="_blank"><img src="image18.jpg" width="40px">@HeForShe Movement</a><br>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Critique of HeForShe Movement - Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        header nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        main {
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        section {
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 20px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #007BFF;
+        }
+
+        h1 {
+            font-size: 20px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="submit"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .social-media-links a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>A Critique of HeForShe Movement</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <p>If you have any questions or feedback, please don't hesitate to get in touch with us.</p>
+            <h1>Contact Form</h1>
+            <form action="submit_contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+            <p>Contact us via email at: heforshe@gmail.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Follow us on social media:</p>
+        <a href="https://www.facebook.com/HeForShe Movement" target="_blank"><img src="facebook.png" width="40px">@HeForShe Movement</a><br>
+        <a href="https://www.instagram.com/HeForShe Movement" target="_blank"><img src="image22.jpg" width="40px">@HeForShe Movement</a><br>
+        <a href="https://twitter.com/HeForShe" target="_blank"><img src="image18.jpg" width="40px">@HeForShe Movement</a><br>
+    </footer>
+</body>
+</html>
